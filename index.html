@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="highlight-user-win hide" id="usr-win">You Won!</div>
+    <h1>Stone Paper Scissor</h1>
+    <div class="choice">
+        <div id="result"></div>
+        <button id="rock"><img src="./images/rock.png" alt=""></button>
+        <button id="paper"><img src="./images/paper.png" alt=""></button>
+        <button id="scissor"><img src="./images/scissors.png" alt=""></button>
+        <submit id="reset">Reset</submit>
+    </div>
+    <div class="score">
+        <div>User Score:<span id="usr_score">0</span></div>
+        <div>Computer Score:<span id="comp_score">0</span></div>
+    </div>
+    <div id="history">
+        <div id="round"><b><u>Round No.</u></b><span id="rounds"></span></div>
+        <div><b><u>User</u></b><span id="usr_history"></span></div>
+        <div><b><u>Computer</u></b><span id="comp_history"></span></div>
+        <div><b><u>Win</u></b><span id="round_result"></span></div>
+    </div>
+    <script src="./logic.js">
+        
+    </script>
+</body>
+
+</html>

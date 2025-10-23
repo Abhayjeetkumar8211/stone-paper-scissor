@@ -1,0 +1,101 @@
+* {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        img {
+            height: 150px;
+            width: 150px;
+            border-radius: 100px;
+            padding: 5px;
+            object-fit:cover;
+        }
+        button {
+            border-radius: 100px;
+            margin:5px;
+        }
+        #history {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            #round{
+                width:100%;
+            }
+            div{
+                width:100%;
+            }
+        }
+        .highlight-user-win {
+            width:200px;
+            height: 200px;
+            background-color: aqua;
+            z-index: 10;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position:absolute;
+            top:90px
+        }
+        .hide {
+            display: none;
+        }.choice{
+            display:flex;
+            flex-direction:row;
+            align-items:center;
+            justify-content:space-evenly;
+            padding:50px;
+            border-radius:200px;
+            background-color:bisque;
+        }
+        h1{
+            text-align:center;
+            background-color:burlywood;
+            padding:25px;
+            border-radius:200px;
+        }
+        button:hover{
+            border:2px solid blue;
+        }
+        #result{
+            position:absolute;
+            top:90px;
+            font-size:30px;
+            z-index:10;
+            background-color:blue;
+            width:max-content;
+            color:white;
+            padding:5px;
+            border-radius:20px;
+        }
+        .score{
+            display:flex;
+            flex-direction:row;
+            div{
+                width:50%;
+                background-color:black;
+                color:white;
+                border:5px solid white;
+                border-radius:100px;
+                padding:50px;
+            }
+        }
+        @media (max-width: 600px){
+            .choice{
+            display:flex;
+            flex-direction:column;
+            /* align-items:center;
+            justify-content:space-evenly;
+            padding:70px;
+            border-radius:200px;
+            background-color:bisque; */
+        }
+        }
+        #reset{
+            position:absolute;
+            right:30px;
+            top:90px;
+            padding:10px;
+            border:2px solid black;
+            background-color:red;
+            border-radius:30px;
+        }
